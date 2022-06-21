@@ -1,1 +1,1 @@
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/full_k53v1_64_bsp.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/full_m2note.mk
