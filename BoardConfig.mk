@@ -11,7 +11,7 @@ include device/mediatek/mt6735/BoardConfig.mk
 ifneq ($(strip $(MTK_AB_OTA_UPDATER)), yes)
 BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
 endif
-BOARD_FLASH_BLOCK_SIZE := 4096
+BOARD_FLASH_BLOCK_SIZE := 131072
 BOARD_MTK_RECOVERY_SIZE_KB := 24576
 
 MTK_INTERNAL_CDEFS := $(foreach t,$(AUTO_ADD_GLOBAL_DEFINE_BY_NAME),$(if $(filter-out no NO none NONE false FALSE,$($(t))),-D$(t)))
