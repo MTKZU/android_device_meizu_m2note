@@ -42,6 +42,6 @@ KERNEL_DEFCONFIG ?= m2note_debug_defconfig
 else
 KERNEL_DEFCONFIG ?= m2note_defconfig
 endif
-#PRELOADER_TARGET_PRODUCT ?= m2note
-#LK_PROJECT ?= m2note
-#TRUSTY_PROJECT ?= m2note
+PRELOADER_TARGET_PRODUCT ?= m2note
+LK_PROJECT ?= m2note
+TRUSTY_PROJECT ?= m2note
